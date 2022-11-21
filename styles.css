@@ -1,0 +1,64 @@
+/* 
+Farben
+#f6ead4 *background
+#a2a595 border 
+#b4a284 background boxes
+#829079 icons
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6ead4;
+}
+
+h1 {
+  z-index: 1;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  padding: 10px;
+  margin: 0px 0px 8px 0px;
+  text-align: center;
+  border: 2px solid #a2a595;
+  background-color: #b4a284;
+}
+
+.qbox {
+  position: relative;
+  text-align: center;
+  width: 50%;
+  border: 2px solid #a2a595;
+  border-radius: 40px;
+  background-color: #b4a284;
+  padding: 4px 5px 150px 5px;
+  margin: 70px auto;
+}
+
+.fa-regular {
+  position: relative;
+  color: #829079;
+  font-size: 2em;
+}
+
+.footer {
+  z-index: 1;
+  width: 100%;
+  bottom: -8px;
+  left: 0px;
+  position: fixed;
+  padding: 10px;
+  margin: 0px 0px 8px 0px;
+  text-align: center;
+  border: 2px solid #a2a595;
+  background-color: #b4a284;
+}
+
+.fa-solid {
+  font-size: 2em;
+  color: 829079;
+}

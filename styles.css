@@ -66,15 +66,28 @@ h1 {
 
 .fa-regular {
   position: relative;
-  color: #829079;
+  color: white;
   font-size: 2em;
 }
 
 .fa-regular:hover {
   color: #829079;
 }
-.footerbookmark {
-  color: yellow;
+
+.fa-regular:active {
+  background-color: #829079;
+}
+
+.bookmark {
+  color: #829079;
+  font-size: 3em;
+  position: relative;
+  left: 300px;
+  bottom: 50;
+}
+
+.bookmark:active {
+  background-color: #829079;
 }
 
 button {

@@ -14,18 +14,31 @@
     <title>Profil</title>
   </head>
   <body>
-    <section>
-      <h1>Profil</h1>
-    </section>
+    <form action="">
+      <p id="description">Here You can Create Youre own Questions!</p>
+      <fieldset aria-describedby="description">
+        <label for="input-question">Your Question:</label>
+        <textarea
+          name="input-question"
+          id="input-question"
+          cols="30"
+          rows="5"
+        ></textarea>
 
-    <section class="profilblock">
-      <p>Magnus Johannson</p>
-      <h4>About me</h4>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum voluptatum
-      assumenda, est quibusdam deserunt molestias, dolorem magni possimus
-      officia quae vel, error fugit beatae eius consectetur facilis. Laudantium,
-      at error.
-    </section>
+        <label for="input-answer">Your Answer:</label>
+        <textarea
+          name="input-answer"
+          id="input-answer"
+          cols="30"
+          rows="5"
+        ></textarea>
+
+        <label for="input-date">Your Tag#:</label>
+        <input type="text" name="date" id="input-date" />
+      </fieldset>
+
+      <button class="submit" type="submit">Submit</button>
+    </form>
 
     <section class="footer">
       <a href="index.html"

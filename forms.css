@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6ead4;
+}
+
 form {
   background-color: #b4a284;
   display: grid;
@@ -44,4 +53,47 @@ select {
 
 .form__character-count {
   color: #666;
+}
+
+.fa-solid {
+  font-size: 2em;
+  color: white;
+}
+
+.fa-regular {
+  position: relative;
+  color: white;
+  font-size: 2em;
+}
+
+.fa-regular:hover {
+  color: #829079;
+}
+
+.fa-regular:active {
+  background-color: #829079;
+}
+
+.footer {
+  z-index: 1;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #a2a595;
+  background-color: #b4a284;
+}
+
+button {
+  background-color: #b4a284;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  color: #829079;
 }

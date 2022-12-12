@@ -2,13 +2,16 @@ console.clear();
 
 const form = document.querySelector('[data-js="input-question"]');
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+form.addEventListener("submit", (/*event*/) => {
+  // event.preventDefault();
 
-  const formData = new FormData(event.target);
-  const data = Object.fromEntries(formData);
+  // const formData = new FormData(event.target);
+  // const data = Object.fromEntries(formData);
 
-  console.log(data);
+  const li = document.createElement("li");
+  li.classList.add("addQuestion");
+  li.textContent = "Im a message";
+  toastContainer.append(li);
 });
 
 const questionElement = document.querySelector('[data-js="input-question"]');

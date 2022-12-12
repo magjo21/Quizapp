@@ -21,6 +21,7 @@
       <fieldset aria-describedby="description">
         <label for="input-question">Your Question:</label>
         <textarea
+          class="textarea"
           data-js="input-question"
           name="input-question"
           id="input-question"
@@ -34,6 +35,7 @@
 
         <label for="input-answer">Your Answer:</label>
         <textarea
+          class="textarea"
           data-js="input-answer"
           name="input-answer"
           id="input-answer"
@@ -45,11 +47,11 @@
           >(<span data-js="amountleft"></span> characters left)</small
         >
 
-        <label for="input-date">Your Tag#:</label>
-        <input type="text" name="date" id="input-date" />
+        <label for="input-tag">Your Tag#:</label>
+        <input class="tag" type="text" name="tag" id="input-tag" />
       </fieldset>
 
-      <button class="submit" type="submit">Submit</button>
+      <button class="submit" type="submit">Submit data-js=""</button>
     </form>
 
     <section class="footer">

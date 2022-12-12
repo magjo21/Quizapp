@@ -97,3 +97,18 @@ button {
 .button:hover {
   color: #829079;
 }
+
+.textarea {
+  background-color: #f6ead4;
+}
+
+.tag {
+  background-color: #f6ead4;
+}
+
+.addQuestion {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 0 1rem rgba(133, 133, 133, 0.3);
+}
